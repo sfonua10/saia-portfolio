@@ -31,7 +31,7 @@ function classNames(...classes: string[]) {
 export default function Header() {
   return (
     <Popover className="relative bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto p-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
@@ -148,7 +148,7 @@ export default function Header() {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="mt-6">
+              <div className="mt-6 border-b-2 border-gray-100 py-6">
                 <nav className="grid gap-y-8">
                   {solutions.map((item) => (
                     <a
@@ -166,6 +166,23 @@ export default function Header() {
                     </a>
                   ))}
                 </nav>
+              </div>
+              <div className="py-6 px-5 space-y-6">
+                <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+                  <a
+                    href="#"
+                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  >
+                    Projects
+                  </a>
+
+                  <a
+                    href="#"
+                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  >
+                    Contact
+                  </a>
+                </div>
               </div>
             </div>
           </div>
