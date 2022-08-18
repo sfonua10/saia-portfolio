@@ -1,4 +1,5 @@
 import Header from "app/components/Header";
+import Services from "~/components/Services";
 
 export default function Index() {
   return (
@@ -21,6 +22,7 @@ export default function Index() {
           </p>
         </section>
       </main>
+      <Services />
     </>
   );
 }
