@@ -1,5 +1,6 @@
 import Header from "app/components/Header";
 import Services from "~/components/Services";
+import Contact from "~/components/Contact";
 
 export default function Index() {
   return (
@@ -23,6 +24,7 @@ export default function Index() {
         </section>
       </main>
       <Services />
+      <Contact />
     </>
   );
 }
