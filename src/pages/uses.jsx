@@ -68,9 +68,9 @@ export default function Uses() {
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
+            <Tool title="Visual Studio Code">
               I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
+              everyone else relies on, Visual Studio Code is still the best text
               editor ever made.
             </Tool>
             <Tool title="iTerm2">
