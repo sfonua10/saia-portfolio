@@ -1,53 +1,42 @@
-# Welcome to Remix!
+# Spotlight
 
-- [Remix Docs](https://remix.run/docs)
+Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
-## Development
+## Getting started
 
-From your terminal:
+To get started with this template, first install the npm dependencies:
 
-```sh
+```bash
+npm install
+```
+
+Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
+
+```
+NEXT_PUBLIC_SITE_URL=https://example.com
+```
+
+Next, run the development server:
+
+```bash
 npm run dev
 ```
 
-This starts your app in development mode, rebuilding assets on file changes.
+Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-## Deployment
+## Customizing
 
-First, build your app for production:
+You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
 
-```sh
-npm run build
-```
+## License
 
-Then run the app in production mode:
+This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
 
-```sh
-npm start
-```
+## Learn more
 
-Now you'll need to pick a host to deploy it to.
+To learn more about the technologies used in this site template, see the following resources:
 
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
+- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
+- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+- [MDX](https://mdxjs.com) - the MDX documentation
